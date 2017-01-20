@@ -1,0 +1,244 @@
+.btn-primary {
+    background-color:black              !important;
+    border-color: black                !important;    
+}
+
+.modalImageContainer{
+    align-items : center;
+    justify-content: center;
+    display:flex;
+    width: contain;
+    height: contain;
+}
+.gallery-col{
+    justify-content: space-between;
+    
+    
+}
+modal-content {
+    background-color: #333333 !important;
+}
+.imageGallery {    
+background-color: black;
+  height: 100%;/* Or whatever */
+  min-width: 100%;
+    max-width: 100%;
+    padding:auto;
+    align-items: flex-end;
+  flex-grow: 1;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+head{
+    max-width: 100vw;
+}
+.imageInfo{
+    color:black;
+    font-style: italic;
+}
+.modal-header {
+  padding: 1px;
+  border-bottom: 1px solid #e5e5e5;
+}
+modal p {
+    color: black;
+}
+p {
+    text-align: center;
+}
+.modal-body{
+padding: 0;
+}
+.modal-content {
+    padding: 1px;
+    
+    
+    
+}
+.logoContainer{
+    background: url(ArtImages/LogoPaintWBEdit.png); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:auto;
+    min-height: 200px;
+    max-height:300px;
+    min-width: 200px;
+    max-width: 300px;
+    
+    
+    
+}
+.lead{ 
+    font-family: 'Megrim', cursive; !important
+font-style: normal;
+    font-size: 10px;
+    
+    
+}
+.modal-footer {
+    padding: 1px;
+    
+}
+.flex-container {
+  padding: 0;
+  margin:-0px;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap:wrap;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-between;
+}
+.artBox {
+    
+    
+flex:auto;
+    
+  min-height: 30%;
+    min-width: 30%;
+/*  max-width: 45vw;  */
+  max-height: 45%; /* Or whatever */
+  margin: auto;  /* Magic! */
+  text-align: center;
+    font-size: 2vh;
+  background-color: black;
+  justify-content: stretch;
+overflow: none;
+  overflow-x: hidden;
+color: gray;
+}
+.fullwidthbanner-container{
+    
+    
+    width: 100%;
+}
+.container-contact-info{
+ 
+
+ 
+    
+    
+}
+.fullscreen-art-tracks {
+
+    
+    align-content: center;
+    position: relative;
+    background: #000 url(ArtImages/TracksJumboEdit2.jpg);
+/*    background-position: center;*/
+    width:98.8vw;
+    height: 37vw;;
+    max-width: 98.8vw;
+    
+    background-size: cover;
+}
+
+body{
+    padding-right: -30px;
+    padding-top: 50px;
+    background-color: #010101;
+    max-width:100%;
+    overflow-x: hidden;
+    
+}
+
+.artBox img {
+    border-radius: 3px;
+    flex-shrink: 0;
+    max-height: 80%;
+    max-width: 80%;
+    min-width: 20vw;
+
+}
+  
+.write-up-text{
+ text-align: center;
+    margin-top: 30px;
+     
+    font-family: 'Megrim', cursive;
+    
+}
+
+.write-up-text p{
+
+}
+
+.write-up-text h6{
+font-style: italic;
+    
+    
+}
+.contact-footer{
+
+
+    
+    font-size: 3vh;
+    background-color: #131212;
+    color: darkgray;
+   
+}
+
+.modalImageContainer img {
+        max-height: 90vh;
+        max-width: 90vw;
+        
+    }
+
+
+
+.front-page-bottom {
+    min-height: 20vh;
+    padding-top: 20px;
+    
+}
+.front-page-header{
+    min-height: 8vh;
+    max-height: 30vh;
+    padding-bottom: 10px;
+    text-align: right;
+    margin-top: -5vh;
+    margin-bottom: 1vh;
+    
+
+}
+
+
+#gradbox {
+    height: 200px;
+    background: -webkit-linear-gradient(top, rgba(19, 18, 18, 0),rgba(19, 18, 18, 1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, rgba(19, 18, 18, 0), rgba(19, 18, 18, 1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(19, 18, 18, 0), rgba(19, 18, 18, 1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, rgba(19, 18, 18, 0), rgba(19, 18, 18, 1)); /* Standard syntax (must be last) */
+}
+.contact-info {
+    margin: auto;
+    
+    justify-content: center;
+    align-self: auto;
+    
+    text-align: center;
+    color: dimgray;
+    margin-top: 8vh;
+    margin-bottom: 3vh;
+    
+    
+}
+
+.contact-flex {
+    min-width: 96vw;
+        display: flex;
+    flex-direction: row;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .contact-flex {
+        flex-direction: column;
+    }
+}
