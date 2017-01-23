@@ -1,0 +1,21 @@
+Ownership of Materials
+Everything on this website (including the underlying HTML, text, illustrations, designs, icons, audio clips, video clips
+, documents, products, software and all other website content 
+is owned by the original creator, Thomas Besenski.
+
+What you can do with the content: Authorized and limited licence
+Access Copyright grants you a royalty-free, non-exclusive and non-transferable licence to view and display the Content on your computer,
+and to download and print all or any part of the Content. Unless you have a separate written agreement with Access Copyright that permits
+further uses, you may only use the Content for personal or educational purposes.
+
+This licence is subject to the following conditions:
+(a) You are not permitted to modify the Content.
+(b) You are not permitted to make use of the Content for commercial gain.
+(c) You must keep intact all copyright notices for the Content and provide, reasonable to the medium or means you are utilizing,
+the name of Access Copyright and the title of the Content if supplied. Such credit may be provided in any reasonable manner;
+provided, however, that in the case of a collective work, at a minimum such credit will appear where any other comparable authorship
+credit appears and in a manner at least as prominent as such other comparable authorship.
+
+To request written permission to use the Content for purposes not licensed above, to request permission to use a trade-mark 
+displayed on this website, or for any other questions relating to the use of Content on this Website, you may email tbesenski@hotmail.com
+or contact via GitHub.
