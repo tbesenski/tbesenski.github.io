@@ -163,6 +163,7 @@ body{
     margin-top: 30px;
      color : azure;
     font-family: sans-serif;
+    opacity: 0.5;
     
 }
 
@@ -196,6 +197,7 @@ font-style: italic;
 .front-page-bottom {
     min-height: 20vh;
     padding-top: 20px;
+    opacity: 0.6;
     
 }
 .front-page-header{
