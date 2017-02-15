@@ -181,7 +181,7 @@ font-style: italic;
 
     
     font-size: 3vh;
-    background-color: #666666;
+    background-color: rgb(95,95,95);
     color: darkgray;
    
 }
@@ -242,6 +242,7 @@ font-style: italic;
     min-width: 96vw;
         display: flex;
     flex-direction: row;
+    background: rgba(95,95,95,1)
     
 }
 
