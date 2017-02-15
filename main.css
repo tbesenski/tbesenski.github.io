@@ -181,11 +181,15 @@ font-style: italic;
 
     
     font-size: 3vh;
-    background-color: #131212;
+    background-color: #666666;
     color: darkgray;
    
 }
-
+.facebook-link{
+    
+    margin-top: 10vh;
+    
+}
 .modalImageContainer img {
         max-height: 90vh;
         max-width: 90vw;
@@ -213,20 +217,21 @@ font-style: italic;
 
 
 #gradbox {
+    text-align: center;
     height: 200px;
-    background: -webkit-linear-gradient(top, rgba(19, 18, 18, 0),rgba(19, 18, 18, 1)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom, rgba(19, 18, 18, 0), rgba(19, 18, 18, 1)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom, rgba(19, 18, 18, 0), rgba(19, 18, 18, 1)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom, rgba(19, 18, 18, 0), rgba(19, 18, 18, 1)); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(top, rgba(19, 18, 18, 0),rgba(95, 95, 95, 1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, rgba(95, 95, 95,1), rgba(19, 18, 18, 0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(95, 95, 95, 1), rgba(95, 95, 95, 0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, rgba(19, 18, 18, 0), rgba(95, 95, 95, 1)); /* Standard syntax (must be last) */
 }
 .contact-info {
     margin: auto;
-    
+    color: black;
     justify-content: center;
     align-self: auto;
     
     text-align: center;
-    color: dimgray;
+    
     margin-top: 8vh;
     margin-bottom: 3vh;
     

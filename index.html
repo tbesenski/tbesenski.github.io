@@ -11,7 +11,14 @@
     <link rel="icon" href="../../favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Thomas Elijah Besenski - Portfolio</title>
-
+<!--    This is all FB -->
+    <meta property="og:url"                content="http://thomaselijah.ca" />
+    <meta property="og:type"               content="Portfolio" />
+    <meta property="og:title"              content="Portfolio by Thomas Elijah Besenski" />
+    <meta property="og:description"        content="Canadian artist emerges in the world of social media." />
+    <meta property="og:image"              content="http://thomaselijah.ca/ArtImages/mtTolmieEdit2.jpg" />
+    
+<!--    End FB-->
     <!-- Bootstrap core CSS -->
     <!--   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -45,7 +52,13 @@
 
 </script>
 
-
+ <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
 
 
@@ -54,6 +67,12 @@
 </head>
 
 <body>
+    
+      <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+ 
+    
+    
     <div class="container front-page-header">
         <p>
             <div class="lead">
@@ -76,13 +95,13 @@
     
             
     <div class="item active">
-      <img src="ArtImages/TracksJumboEdit2.jpg" alt="ImageError">
+      <img src="ArtImages/TracksJumboEdit2.jpg" alt="Calgary Landscape Train Tracks">
       <div class="carousel-caption">
         
       </div>
     </div>
       <div class="item">
-      <img src="ArtImages/mtTolmieEdit2.jpg" alt="ImageError">
+      <img src="ArtImages/mtTolmieEdit2.jpg" alt="Victoria Sunset Painting">
       <div class="carousel-caption">
         
       </div>
@@ -205,15 +224,21 @@
     <div class="container">
 <div class=" write-up-text">
         
-            <h3>Currently residing in Victoria BC, Thomas Besenski offers fully serviced web development and commissioned paintings.
-    Please contact for any inquiries.</h3>
+            <h2>Currently residing in Victoria BC, Thomas Besenski offers fully serviced web development and commissioned paintings.
+    Please contact for any inquiries.</h2>
+
     </div>
 </div>
 
 
 
 
-    <div id="gradbox"></div>
+    <div id="gradbox">
+
+    <div class= "facebook-link"><div class="fb-share-button" data-href="http://thomaselijah.ca" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fthomaselijah.ca%2F&amp;src=sdkpreparse"><img src="ArtImages/facebooklink.png"></a></div></div>
+
+
+</div>
 
     <div class="contact-footer container-fluid" id="contact">
         <div class="container-fluid container-contact-info">
@@ -221,7 +246,7 @@
             <div class="row contact-flex">
             <div class="col-md-4  contact-info">
                 <div class="row">
-                <div class="col">Thomas Elijah Besenski</div>
+                <div class="col">Thomas Elijah Besenski  </div>
             </div>
 
             <div class="row">
